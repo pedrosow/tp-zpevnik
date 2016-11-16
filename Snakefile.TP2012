@@ -8,11 +8,11 @@ cover_back="tp-zpevnik-covers/2012_back.pdf"
 
 
 songs=[
-	"./tp-songs/01_folk/(neznámý)____3_citrónky.tex",
-	"./tp-songs/01_folk/(neznámý)____Balada_o_princezně_a_o_hradu.tex",
-	"./tp-songs/01_folk/(lidová)____A_te_Rehradice.tex",
+	"./tp-songs/01_folk/neznámý____Tři_citrónky.tex",
+	"./tp-songs/01_folk/neznámý____Balada_o_princezně_a_o_hradu.tex",
+	"./tp-songs/01_folk/lidová____A_te_Rehradice.tex",
 	"./tp-songs/03_zahranicni/Alexandrovci____Kaťuša.tex",
-	"./tp-songs/01_folk/(lidová)____Kdyby_tady_byla_taková_panenka.tex",
+	"./tp-songs/01_folk/lidová____Kdyby_tady_byla_taková_panenka.tex",
 	"./tp-songs/01_folk/Asonance____Čarodějnice_z_Amesbury.tex",
 	"./tp-songs/01_folk/Bratři_Ebenové____Folklóreček.tex",
 	"./tp-songs/01_folk/Bratři_Ebenové____Nikdo_to_nebere.tex",
@@ -46,10 +46,10 @@ songs=[
 	"./tp-songs/01_folk/Hop_Trop____Švorcák.tex",
 	"./tp-songs/01_folk/Hop_Trop____Tři_kříže.tex",
 	"./tp-songs/01_folk/Ivan_Mládek____Jožin_z_bažin.tex",
-	"./tp-songs/01_folk/Jarek_Nohavica____8._barva_duhy.tex",
+	"./tp-songs/01_folk/Jarek_Nohavica____Osmá_barva_duhy.tex",
 	"./tp-songs/01_folk/Jarek_Nohavica____Afričančata.tex",
 	"./tp-songs/01_folk/Jarek_Nohavica____Básnířka.tex",
-	"./tp-songs/01_folk/Jarek_Nohavica____Danse_Macbre.tex",
+	"./tp-songs/01_folk/Jarek_Nohavica____Danse_Macabre.tex",
 	"./tp-songs/01_folk/Jarek_Nohavica____Dokud_se_zpívá.tex",
 	"./tp-songs/01_folk/Jarek_Nohavica____Jdou_po_mně_jdou.tex",
 	"./tp-songs/01_folk/Jarek_Nohavica____Kometa.tex",
@@ -82,12 +82,12 @@ songs=[
 	"./tp-songs/01_folk/Karel_Plíhal____Námořnická.tex",
 	"./tp-songs/01_folk/Karel_Plíhal____Ráda_se_miluje.tex",
 	"./tp-songs/01_folk/Karel_Plíhal____Trubadúrská.tex",
-	"./tp-songs/01_folk/Máci____Už_to_nenapravím.tex",
+	"./tp-songs/01_folk/Samson_a_jeho_parta____Už_to_nenapravím.tex",
 	"./tp-songs/01_folk/Marsyas____Marsyas_a_Apollón.tex",
 	"./tp-songs/01_folk/Michal_Tučný____Pověste_ho_vejš.tex",
-	"./tp-songs/01_folk/Miki_Ryvola____Bedna_od_whisky.tex",
+	"./tp-songs/01_folk/Hoboes____Bedna_od_whisky.tex",
 	"./tp-songs/01_folk/Nerez____Tisíc_dnů_mezi_námi.tex",
-	"./tp-songs/01_folk/(neznámý)____Okoř.tex",
+	"./tp-songs/01_folk/neznámý____Okoř.tex",
 	"./tp-songs/01_folk/Pacifik____Malý_velký_muž.tex",
 	"./tp-songs/01_folk/Pacifik____Velrybářská_výprava.tex",
 	"./tp-songs/01_folk/Pavel_Dobeš____Něco_o_lásce.tex",
@@ -100,8 +100,8 @@ songs=[
 	"./tp-songs/01_folk/Spirituál_kvintet____Stará_archa.tex",
 	"./tp-songs/01_folk/Spirituál_kvintet____Starý_příběh.tex",
 	"./tp-songs/01_folk/Spirituál_kvintet____Žízeň.tex",
-	"./tp-songs/01_folk/Wabi_Ryvola____Tak_už_mi_má_holka_mává.tex",
-	"./tp-songs/01_folk/Wabi_Ryvola____Tereza.tex",
+	"./tp-songs/01_folk/Hoboes____Tak_už_mi_má_holka_mává.tex",
+	"./tp-songs/01_folk/Hoboes____Tereza.tex",
 	"./tp-songs/01_folk/Wabi_Daněk____Rosa_na_kolejích.tex", ###
 	"./tp-songs/01_folk/Waldemar_Matuška____Růže_z_Texasu.tex",
 	"./tp-songs/01_folk/Waldemar_Matuška____Slavíci_z_Madridu.tex",
@@ -111,7 +111,7 @@ songs=[
 
 #########################
 
-	"./tp-songs/02_pop_rock/(neznámý)____Seděla_u_vody.tex",
+	"./tp-songs/02_pop_rock/neznámý____Seděla_u_vody.tex",
 	"./tp-songs/02_pop_rock/Aleš_Brichta____Dívka_s_perlami_ve_vlasech.tex",
 	"./tp-songs/02_pop_rock/Aleš_Brichta____Slečna_závist.tex",
 	"./tp-songs/02_pop_rock/Blue_Effect____Sluneční_hrob.tex",
@@ -197,7 +197,7 @@ songs=[
 	"./tp-songs/03_zahranicni/Beatles____Yellow_submarine.tex",
 	"./tp-songs/03_zahranicni/Beatles____Yesterday.tex",
 	"./tp-songs/03_zahranicni/Bob_Dylan____Knockin_on_heavens_door.tex",
-	"./tp-songs/03_zahranicni/Creedance_Clearwater_Revival____Proud_Mary.tex",
+	"./tp-songs/03_zahranicni/Creedence_Clearwater_Revival____Proud_Mary.tex",
 	"./tp-songs/03_zahranicni/Eagles____Hotel_California.tex",
 	"./tp-songs/03_zahranicni/Deep_Purple____Smoke_on_the_water.tex",
 	"./tp-songs/03_zahranicni/Eric_Clapton____Layla.tex",
@@ -223,5 +223,5 @@ include:"tpcb/snake_incl.py"
 
 rule all:
 	input:
-		cb_pdf(chordbook)
+		run()
 

@@ -1,19 +1,38 @@
 language: python
 os:
-  - linux
-  - osx
+- linux
 python:
-  - "3.2"
-  - "3.3"
-  - "3.4"
+- '3.4'
+addons:
+  apt:
+    packages:
+    - lmodern
+    - texlive-latex-recommended
+    - texlive-latex-extra
+    - texlive-fonts-recommended
+    - texlive-xetex
+    - texlive-extra-utils
 install:
-  - "pip install -r requirements.txt"
-  - "sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-xetex"
-  - "sudo ln -s /usr/share/i18n/SUPPORTED /var/lib/locales/supported.d/all"
-  - "sudo locale-gen"
+- pip install -r requirements.txt
+- sudo ln -s /usr/share/i18n/SUPPORTED /var/lib/locales/supported.d/all
+- sudo locale-gen cs_CZ.UTF-8
 script:
-  - "snakemake -p -s Snakefile.AllSongs"
-  - "snakemake -p -s Snakefile.TP2011"
-  - "snakemake -p -s Snakefile.TP2012"
-  - "snakemake -p -s Snakefile.TP2013"
-  
+- make
+before_deploy:
+- make orizni
+- ./vygeneruj_index_surge.py > output/index.html
+- ./vygeneruj_novy_zpevnik.py > output/Snakefile.sablona
+deploy:
+  provider: surge
+  project: "./output/"
+  domain: tp-zpevnik.surge.sh
+  skip_cleanup: true
+  on:
+    branch:
+    - master
+    - surge
+#    all_branches: true
+env:
+  global:
+  - secure: lZxQ9+kfyqzvmPvxLPv6FvTwGbOrAdek3tU/05me30vVb2VA8mvBj8+ELQjWvuuNEtUJ6NSAIDn0o2wntoy5uK8cA7jPMOCMUH3H1oHNxiAjJb9Pj0l14RZJ6HxVQCdTXDDlcV99AkkD5YbFNhNcLsiQO+o7FLIvXpEoS1J0HsY=
+  - secure: CvGQvGyks7jQLk4LbhgyQkm+O3ycoW/Qq64Yy5BXBrHwLgeUAPgY2j10pwSlWAZ8UO37cChpe+itD0LAGJqeRAlp1KhtUgtslVqJWEZQDRyZ8HPjT+2SWJVZtFTCYr/4/fzx2Vsjl6el7I3cGLzyUbuQM9h168pxYEINePTD1As=
